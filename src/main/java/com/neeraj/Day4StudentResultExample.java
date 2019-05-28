@@ -13,12 +13,9 @@ public class Day4StudentResultExample
         s1.setLastName("Prasher");
         s1.setGender("Male");
         s1.setBirthDate(new Date(System.currentTimeMillis()));
+
         float[] myMarks = { 77.0f, 88.0f, 79.0f, 94.0f, 91.0f };
         s1.setMarks(myMarks);
-
-
-
-
 
         s1.calculateTotal();
         s1.calculatePercentage();
